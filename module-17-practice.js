@@ -86,3 +86,41 @@ var firstName = 'Mohammad'
 var secondName = 'Shahadad'
 var fullName = firstName + ' ' + secondName;
 console.log(fullName)
+
+//--------- Parse Float ------------
+
+var singaraPrice = '5.5';
+var chaPrice = '8.3';
+var totalPrice = singaraPrice + chaPrice;
+console.log(totalPrice)
+
+var newPrice = parseInt(totalPrice);
+console.log(newPrice)
+
+var newPrice2 = parseFloat(totalPrice)
+console.log(newPrice2)
+
+
+var singaraPrice = '5.5';
+var chaPrice = '8.3';
+var newSingaraPrice = parseInt(singaraPrice)
+var newChaPrice = parseInt(chaPrice)
+var totalPrice = newSingaraPrice + newChaPrice;
+console.log(totalPrice)
+
+var singaraPrice = '5.5';
+var chaPrice = '8.3';
+var newSingaraPrice = parseFloat(singaraPrice)
+var newChaPrice = parseFloat(chaPrice)
+var totalPrice = newSingaraPrice + newChaPrice;
+console.log(totalPrice)
+console.log(typeof totalPrice)
+
+// Float Fixed 
+
+var first = 0.1;
+var second = 0.2;
+var total = first + second;
+total = total.toFixed(2)
+total = parseFloat(total)
+console.log(total)
