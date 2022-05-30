@@ -16,7 +16,7 @@ var tableSize = 6;
 
 var myName = 'Mohammad Shahadad Hossain'
 var myHeight = '5 fit 9 inch'
-var tableSize = "6 fit"
+var gotHigestMark = 'False'
 var laptopProcessor = "AMD"
 var casingBrand = 'NZXT'
 var myAddress = 'Chittagong'
@@ -24,3 +24,16 @@ var collegeName = "Gachhbaria gov't college"
 var favouriteSubject = "Physics"
 var recentlyReadBook = 'Atomic habit bangla version'
 var phoneBrand = 'Xioami'
+
+// 10 Boolean Variable 
+
+var isFoodReady = true;
+var gotResult = false;
+var toadyWorkComplete = false;
+var isLaptopWorking = true;
+var getJob = false;
+var isCollegeOpen = false;
+var preparingForAdmission = true;
+var haveLinkedIn = false;
+var completeWebCourse = false;
+var is_Your_Age21 = true;
